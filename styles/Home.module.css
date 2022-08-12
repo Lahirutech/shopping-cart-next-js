@@ -127,3 +127,15 @@
     filter: invert(1);
   }
 }
+
+.container {
+  padding: 0 2rem;
+}
+.small {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.large {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
