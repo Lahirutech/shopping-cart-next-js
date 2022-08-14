@@ -4,7 +4,7 @@ export function getProducts() {
   return data;
 }
 
-export default function (req, res) {
+export default function handler(req, res) {
   if (req.method !== "GET") {
     res.setHeader("Allow", ["GET"]);
     res.status(405).json({
