@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-store;
 import "../styles/globals.css";
 import store from "../redux/store";
+import { Provider } from 'react-redux';       // Importing Provider
 
 function MyApp({ Component, pageProps }) {
   return (
